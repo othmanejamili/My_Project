@@ -1,0 +1,292 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Home</title>
+
+    
+    <!-- Link to the custom CSS file -->
+    <link rel="stylesheet" href="{% static 'css/Home.css' %}">
+</head>
+<body>
+    <div class="NavBarMenu2">
+        <div class="NavBarMenu2">
+            <a href="/home"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_42_25)">
+                <path d="M28.5 13.0649L20.5005 6.8429C19.7985 6.29676 18.9344 6.00024 18.045 6.00024C17.1556 6.00024 16.2915 6.29676 15.5895 6.8429L7.5885 13.0649C7.10766 13.4388 6.71864 13.9177 6.45113 14.4649C6.18362 15.0122 6.04471 15.6133 6.045 16.2224V27.0224C6.045 27.818 6.36107 28.5811 6.92368 29.1437C7.48629 29.7063 8.24935 30.0224 9.045 30.0224H27.045C27.8406 30.0224 28.6037 29.7063 29.1663 29.1437C29.7289 28.5811 30.045 27.818 30.045 27.0224V16.2224C30.045 14.9879 29.475 13.8224 28.5 13.0649Z" fill="#FC8A06"/>
+                <path d="M24 22.5C20.685 24.4995 15.312 24.4995 12 22.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_42_25">
+                <rect width="36" height="36" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+                </a></a>
+            <a href="#"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_41_17)">
+                <path d="M13.5 18.0007H22.5" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.5 22.5007H22.5" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.875 5.62573H28.125C28.4234 5.62573 28.7095 5.74426 28.9205 5.95524C29.1315 6.16622 29.25 6.45236 29.25 6.75073V28.1257C29.25 29.0208 28.8944 29.8793 28.2615 30.5122C27.6286 31.1452 26.7701 31.5007 25.875 31.5007H10.125C9.22989 31.5007 8.37145 31.1452 7.73851 30.5122C7.10558 29.8793 6.75 29.0208 6.75 28.1257V6.75073C6.75 6.45236 6.86853 6.16622 7.07951 5.95524C7.29048 5.74426 7.57663 5.62573 7.875 5.62573Z" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.25 3.37573V7.87573" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 3.37573V7.87573" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24.75 3.37573V7.87573" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_41_17">
+                <rect width="36" height="36" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                </a>
+            <a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="32" height="32" fill="url(#pattern0_231_25)"/>
+                <defs>
+                <pattern id="pattern0_231_25" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_231_25" transform="scale(0.01)"/>
+                </pattern>
+                <image id="image0_231_25" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                </defs>
+                </svg>
+                </a>
+            <a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.3334 9.33333C21.3334 10.7478 20.7715 12.1044 19.7713 13.1046C18.7711 14.1048 17.4145 14.6667 16 14.6667C14.5855 14.6667 13.229 14.1048 12.2288 13.1046C11.2286 12.1044 10.6667 10.7478 10.6667 9.33333C10.6667 7.91885 11.2286 6.56229 12.2288 5.5621C13.229 4.5619 14.5855 4 16 4C17.4145 4 18.7711 4.5619 19.7713 5.5621C20.7715 6.56229 21.3334 7.91885 21.3334 9.33333V9.33333ZM16 18.6667C13.5247 18.6667 11.1507 19.65 9.40036 21.4003C7.65002 23.1507 6.66669 25.5246 6.66669 28H25.3334C25.3334 25.5246 24.35 23.1507 22.5997 21.4003C20.8493 19.65 18.4754 18.6667 16 18.6667V18.6667Z" stroke="#4B5563" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                </a>
+        </div>
+    </div>
+    
+    <div class="header">
+        <p class="p1"><b>🌟 Get 5% Off your first order, <span class="span1">Promo: ORDER5</span></b></p>
+        <div class="svg1"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="25" height="25" fill="url(#pattern0_33_51)"/>
+                    <defs>
+                        <pattern id="pattern0_33_51" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_33_51" transform="scale(0.0111111)"/>
+                        </pattern>
+                        <image id="image0_33_51" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFf0lEQVR4nO2dTWhcVRSAj/fkzTnTTJO0NobozDmTH0iKvxDQlX+IP0VQq6gVxI1Vd+JGqIJSBKm6Mm6KXbgoYv1BRHBjraAiSLVWXai1GtEa04K2FJSmVsjIfZOsEpNJZu7Pm3kfHBhCkjn347z77tx73x2AnJycnJycnJzOhUcqhvU+JH0GSd8wJF8h6xSSnkKWf9JIX+uUITmMJK/b3zWs2+zfhk4/ZhCpehOy7kHWH5G11mTY//EyUuVGADChGxceHhYkfR5Jp1sgd+mw/5v0Ofte0HGQDCPrJLKcdSZ4Ucg5JN0LBR2H9meg21YXsv7rT/CisO89CTDaA+0IFuUuJP09oODFXUpRt0L7MEr1biICuUsL3wtQLkKm4arOD81qMYcdImZ3WFjQzUhyLLREbLyyZ5Jk6DLIEl3F6lVIejK4PF617JNdxaErIQskSeXiTErmhZDT8Vd28aIykvwaXpY2W9nT9v4CcTJK6bxDaEncmjAs3wAoQ2wgy+7QcrD18RJE92EkvJSakyhUb4c4GFvvdFKIAwfpbwD9pdCWAVlfDC6Dnct+IazlQnUs8ARRzU/IOaDKSDDPyPJKeAnqK/aEscwjlfqyUnABNW9VHWJsna6MBG+8+g2SXb49G3s37jzROm1rzJvl+YXU8A3nIFV9gz/R9dXqWmeG7PYp+iefjTMs7xuS7XY4adcd0yjouCF5yLDu9yz6B39bBPw16kgXV65eKaUurl5jBfjKy85SOvec7iDyUcUkHwFoX8OJ9coGQ/Kxl9y4ei+4Jt2m5aGSYTWSF+iVDchy1Hl+pDvBNXYvnIeGXLfW/OrdiOv85DVwjevJfcO6v+kcWQ84zZH0ELgGSX5x2wh5sNkcDcnDjqv6Z3ANkv7pshGQDuGapKDjTkWT/gGucT2RBC2ZZO8vua1oOQuuQZbZ+EWP9rgVrWfANUhyIgNdx2anokmOg2vsGNdlI4z9qN0khqqPuK1o+a41NpdthBx0Kpr1g6ZzZP3QcTF8Bq5Bkn1uq0XtXf36tebXxdVrPeT3KrjGsO5w3hDWKSgNblp1cj3ljS162GiFq04eB9dgQbd4EF2zE0R27qLhxHrKGw3pJz5yQ6reDM7pHhpA1jkvDWI52si8h+1qfFTyfMxB9/AF7kWnN0Q95KlRtfqlqgfsx2o7bKuPs/tL9rX9mesb36JcSD/3IjkVzfKUz8ZhRGFYn/AmOknKl4ZuMAaK+lXlEXsJdVw1k37hVXIqmuX+jhPNus27aICJpKM20ZDdPDORBBANYIr6WMdUc0EehXBMJD6X+TFYyPfBqnkBLFRuCy9C3UZBt0AMGJJ3gstgN2FI34JoKA1uspPhoaVgq4N0BtZfeD7EBBbkVn9zIOoj5pD0FogRP7uY1EsYlqchYs7zspOJHUsmedu2BeJmoNsu9WRXsn4KMLgOssFwr++pVGyFZJavV7XYEAWl0X774HqmJJfWsHwWB9pnL0WMvruQg9EN41bPQLdhfS/eStZ3M9QnrwjOn3dXiywmvT7O5gvDlQeQ9e8IBP9l59OhrSlUx+yNJ6Dkb5OkfAl0BspBDh1MDxNsn/64YbCoW13vTq0LluNY1Dugs9G+9Kxnd1X8ZobHx63HcOWe+VPOWyX4FBbl7tDtivfIeWr+qS9D+mV2zxr1uYjAzTyUKUfyrqJBknV6xdpOS5fZJKle3uj75EC64X3XGkYXz+by1nae3swqJJ9o2+PkXWNItvt8yKiT6Wpo21nI7VrtgmF9csVqZt0ROs92Ge7NLiP6TBtM2scBLreyTrIvdH5tAxb1zv8V3V7fpRKactGevb/EB5TT2f8OlchA0p1Z202UVYwVm363C8kx+2RY/hV6OTk50N78B1F1P3cr8q2uAAAAAElFTkSuQmCC"/>
+                    </defs>
+                </svg>
+        </div>
+        <p class="span2"><span><b>Mohammed 6 Street, A4, A4201, Mohammedia</b></span></p>
+        <div class="grennPack">
+            <svg width="400" height="60" viewBox="0 0 378 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H378V58C378 64.6274 372.627 70 366 70H12C5.37258 70 0 64.6274 0 58V0Z" fill="#028643"/>
+                <path d="M0.5 0.5H377.5V58C377.5 64.3513 372.351 69.5 366 69.5H12C5.64873 69.5 0.5 64.3513 0.5 58V0.5Z" stroke="black" stroke-opacity="0.1"/>
+                </svg>
+              <div class="shop">
+                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="43" height="43" fill="url(#pattern0_33_259)"/>
+                    <defs>
+                    <pattern id="pattern0_33_259" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_33_259" transform="scale(0.0111111)"/>
+                    </pattern>
+                    <image id="image0_33_259" width="90" height="90" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                    </svg>
+              </div>  
+              <hr class="hr1"></hr>
+              <div class="items">23 items</div>
+              <hr class="hr2"></hr>
+              <div class="price">GBP 78.89</div>
+              <hr class="hr3"></hr>
+              <div class="charge">
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="38" width="38" height="38" transform="rotate(90 38 0)" fill="url(#pattern0_33_265)"/>
+                    <defs>
+                    <pattern id="pattern0_33_265" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_33_265" transform="scale(0.0111111)"/>
+                    </pattern>
+                    <image id="image0_33_265" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD50lEQVR4nO2dSWsVQRDHG4xGUfRoYgSV6BeIelIxiAseRD2oYBSM2yWBGEN88ebN5RQCfg3XQ0Q/gCKRmOTiRb0Yt6yefA8Sf1KkxRyyaXp6ambqB3N5zJtX/adfd1d1dY1zhmEYhmEYhmEYxtIAVgC7gUvAPeARMAi8B8aBir/G/WeD/p67/ju75BlL/LliAWwGrgFPgR8sn0ngCdAG1LkiA6wBzgMvgGmSYwp4DpwDVruiAKzzPW2Y+HwHbgEbXF4BVgKdwBjpIzZ0iE0uTwD7gCH08Q446LKOjInAfeAXehHbeoBql0WArcArssMbYLvLEvJ3DLRMi40sCw+4LACcBH6SXSrAGacZ4GrCa+JYSBuuOI0AJ7xzkBemgdNOEzKuAWXyRwU47DQA7MjoxPcvE2R92iJX+2VR3ulLdZ3tnZGi0JOmW63Z4wuNtHV/bJGrgAGKx1DUQJSPwhWV9pjx5FGKy6hoEEPoUtotVUBHjO2nr0ociRJQ469SZIfpc6LbYn6PTwOlOWw7GlnspiSFlo1UDdTMY9+RiJHD3qRErlMUNKpZwM5YYk8nksrg8y600LWIrbGGkdYkhJbkFi2URUwFYj9MIk1rAl1UgGOL2J30MDIRNP3M58JppKygZ+8MKfRl9FJJuWc3hxRasjo1U0lR7NshhX6Mfiopif0gpNBZCYmWUxiz+0MK/TFgr+sEaoMZ93/tCSn2h5CGhQqL3nBKEKcnUJtGQholPTEEtU4JwMZAbSprFHqTU4LYolHo0aTCm2kB3NQ4dIScDEtp92zNk6Et7yIt78xhieSwmAseyQWXE6laqaQcVLoQUmgLk85PQ0ihLfAfI/DvxZaz1VooKwj4h50IZxkux4q1UFIgstCSlMtq6QZ/mVoo7WG5YkuVAA3U5DaBxjdESjGozOsgfkrY2aSTHL+gY+3cJWFXf3VFFnk48dofBU9C/8P1REX2Qq+V0CDFZTRKIroXW4qKFJW2KCLPOiz0luIxFL1qDbDXjr9FwlduKQrdsXSd74iyHN/NO6+BVakJ7cWu9wfT88oEsM1pAGjMeNWZhRyjQ04TwHFFQadQZ1ROOY1IeZyclPqZkpxwpxlf8ifLw0hZXYmfRUr/TGZ04mt0WQLYArwkO/SlXtJnmevsHuUepNjWnfo6OaC7PoA+xKY9Lk8wE4hqVxJiHfGbzVUurzATz5ZGfkpB4G++UPd6VxSYKXncBDxL2NGRZ/fKHl+hSs/Phd/3a5Wz1f5tFMtl3D+rJbGUgKzDTPpZA3ARuCPZQJKD7F8FMjbr9SBj/rN+f4/c2+y/a68HMQzDMAzDMAzDcEvkN6dJSbMs1VD2AAAAAElFTkSuQmCC"/>
+                    </defs>
+                    </svg>
+              </div>
+        </div>
+    </div>
+    <div class="navBar">
+        <div class="logo">
+            <img src="{{ MEDIA_URL}}/media/logoPage.png" class="logo" alt="Logo" />
+        </div>
+        <ul class="0">
+            <li class="li0"><a class="li1" href="/home">Home</a></li>
+            <li class="li0"><a href="">Browse Menu</a></li>
+            <li class="li0"><a href="">Special Offers</a></li>
+            <li class="li0"><a href="">Restaurants</a></li>
+            <li class="li0"><a href="">Track Order</a></li>
+          </ul>
+    </div>
+    <div class="pictureADD">
+        <img src="{{ MEDIA_URL }}/media/image1.PNG" class="image1" alt="logo" />
+        <img src="{{ MEDIA_URL }}/media/Untitled.PNG" class="image2" alt="logo" />
+        <img src="{{ MEDIA_URL }}/media/Group3.PNG" class="image3" alt="logo" />
+        <img src="{{ MEDIA_URL }}/media/Group4.PNG" class="image4" alt="logo" />
+        <img src="{{ MEDIA_URL }}/media/Group2.PNG" class="image5" alt="logo" />
+        <img src="{{ MEDIA_URL }}/media/Untitled-1.PNG" class="image6" alt="logo" />
+        <div class="text">Order Restaurant food, takeaway and groceries.</div>
+        <div class="text1">Feast Your Senses,<span class="text2"> Fast and Fresh</span></div>
+    </div>
+    <div class="text-and-navbar-container">
+        <div class="textMenu">Up to -40% 🎊 La vivas exclusive deals</div>
+        <div class="NavBarMenu">
+            <ul class="ul2">
+                <li class="li2"><a href="" class="buttonLi" onClick="showCategory('vegan', this)">Vegan</a></li>
+                <li class="li2"><a href="#Fastfood" class="buttonLi" onClick="showCategory('fastfood', this)">Pizza & Fast food</a></li>
+                <li class="li2"><a href="#Sushi" class="buttonLi" onClick="showCategory('sushi', this)">Sushi</a></li>
+                <li class="li2"><a href="#Other" class="buttonLi" onClick="showCategory('other', this)">Others</a></li>
+            </ul>
+        </div>
+    
+        <!-- Fast food category (shown by default) -->
+        <div id="fastfood" class="pics-container">
+            <img src="{{ MEDIA_URL }}/media/Group10.PNG" class="picBurger" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/Group11.PNG" class="picBurf" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/Group12.PNG" class="picsund" alt="logo" />
+        </div>
+        
+        <!-- Sushi category (hidden initially) -->
+        <div id="sushi" class="pics-container" style="display:none;">
+            <img src="{{ MEDIA_URL }}/media/sushi1.PNG" class="picBurger" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/sushi2.PNG" class="picBurf" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/sushi3.PNG" class="picsund" alt="logo" />
+        </div>
+    
+        <!-- Vegan category (hidden initially) -->
+        <div id="vegan" class="pics-container" style="display:none;">
+            <img src="{{ MEDIA_URL }}/media/vegan1.PNG" class="picBurger" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/vegan2.PNG" class="picBurf" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/vegan3.PNG" class="picsund" alt="logo" />
+        </div>
+    
+        <!-- Other category (hidden initially) -->
+        <div id="other" class="pics-container" style="display:none;">
+            <img src="{{ MEDIA_URL }}/media/other1.PNG" class="picBurger" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/other2.PNG" class="picBurf" alt="logo" />
+            <img src="{{ MEDIA_URL }}/media/other3.PNG" class="picsund" alt="logo" />
+        </div>
+    </div>
+    
+    
+    <div class="Menu1">
+        <div class="MenuTxt1">ochacoal Popular Categories 🌟</div>
+        <div>
+            <div class="ZoneBurgerFastFood">
+                <img src="{{ MEDIA_URL }}/media/Rectangle13.PNG" class="picuterBurgerFastFood" alt="logo" />
+                <div class="textBurgerFastFood">Burgers & Fast food</div>
+                <div class="textBurgerFastRstaurent">Restaurants</div>
+            </div>
+        </div>
+        <div>
+            <div class="ZoneSalade">
+                <img src="{{ MEDIA_URL }}/media/Rectangle15.PNG" class="picuterSalade" alt="logo" />
+                <div class="textSalade">Salads</div>
+                <div class="textSalades">Restaurants</div>
+            </div>
+        </div>
+        <div>
+            <div class="Zonepasta">
+                <img src="{{ MEDIA_URL }}/media/Rectangle17.PNG" class="picuterpasta" alt="logo" />
+                <div class="textpasta">Pasta & Casuals</div>
+                <div class="textpastas">Restaurants</div>
+            </div>
+        </div>
+        <div>
+            <div class="Zonepizza">
+                <img src="{{ MEDIA_URL }}/media/Rectangle19.PNG" class="picuterpizza" alt="logo" />
+                <div class="textpizza">Pizza</div>
+                <div class="textpizzas">Restaurants</div>
+            </div>
+        </div>
+        <div class="ZonepBrakFast">
+            <img src="{{ MEDIA_URL }}/media/Rectangle21.PNG" class="picuterBrakFast" alt="logo" />
+            <div class="textBrakFast">Breakfast</div>
+            <div class="textBrakFasts">Restaurants</div>
+        </div>
+    </div>
+    </div>
+    <div class="chef">
+        <img src="{{ MEDIA_URL }}/media/Chef.PNG" class="chef" alt="logo" /> 
+        <img src="{{ MEDIA_URL }}/media/Group16.PNG" class="chef1" alt="logo" />    
+    </div>
+
+    <div class="explaine">
+        <div class="aboutUs">Know more about us!</div>
+        <div class="explaineZone">
+            <div class="buttonExplaine">
+                <div class="buttonExplaineText">How does Ocharcoal work?</div>
+            </div>
+            <div class="explantexto1">What payment methods are accepted?</div>
+            <div class="explantexto2">Can I track my order in real-time?</div>
+            <div class="explantexto3">Are there any special discounts or promotions available?</div>
+            <div class="explantexto4">Is Ocharcoal available in my area?</div>
+            <div clss="divpic">
+                <div class="picExplaine1">
+                    <div class="textExplaine1">Place an Order!</div>
+                    <img src="{{ MEDIA_URL }}/media/PicExplain.PNG" class="picturesExplaine1" alt="logo" />
+                    <div class="text2Explaine1">Place order through our website</div>
+                </div>
+                <div class="picExplaine2">
+                    <div class="textExplaine2">Track Progress</div>
+                    <img src="{{ MEDIA_URL }}/media/food.PNG" class="picturesExplaine2" alt="logo" />
+                    <div class="text2Explaine1">Your can track your order status with delivery time</div>
+                </div>
+                <div class="picExplaine3">
+                    <div class="textExplaine3">Track Progress</div>
+                    <img src="{{ MEDIA_URL }}/media/order1.PNG" class="picturesExplaine3" alt="logo" />
+                    <div class="text2Explaine3">YReceive your order at a lighting fast speed!</div>
+                </div>
+            </div>
+            <div class="texto1">La vivas simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes, and proceed to checkout. Your delicious meal will be on its way to your doorstep in no time!</div>
+        </div>
+    </div>
+    <div class="zoneOrange">
+        <div class="textOrange">546+</div>
+        <div class="text1Orange">Registered Riders</div>
+        <div class="line1"></div>
+        <div class="textOrange1">789,900+</div>
+        <div class="text1Orange1">Orders Delivered</div>
+        <div class="line2"></div>
+        <div class="textOrange2">690+</div>
+        <div class="text1Orange2">Restaurants Partnered</div>
+        <div class="line3"></div>
+        <div class="textOrange3">100+</div>
+        <div class="text1Orange3">Food items</div>
+    </div>
+    <div class="foother">
+        <div class="textFoother">La vivas Copyright 2024, All Rights Reserved.</div>
+        <div class="textFoother1">Privacy Policy</div>
+        <div class="textFoother2">Terms</div>
+        <div class="textFoother3">Pricing</div>
+        <div class="textFoother4">Do not sell or share my personal information</div>
+    </div>
+</body>
+</html>
+
+<script>
+    function showCategory(category, button) {
+        // Hide all category containers
+        document.getElementById('fastfood').style.display = 'none';
+        document.getElementById('sushi').style.display = 'none';
+        document.getElementById('vegan').style.display = 'none';
+        document.getElementById('other').style.display = 'none';
+    
+        // Show the selected category container
+        document.getElementById(category).style.display = 'block';
+    
+        // Remove active class from all buttons
+        document.querySelectorAll('.buttonLi').forEach(btn => {
+            btn.classList.remove('active');
+        });
+    
+        // Add active class to the clicked button
+        button.classList.add('active');
+    }
+    
+    // Set Fast Food as the default visible category on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        showCategory('fastfood', document.querySelector('[href="#Fastfood"]'));
+    });    
+</script>    

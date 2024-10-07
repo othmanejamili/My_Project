@@ -1,0 +1,3687 @@
+body{
+  width: 100%;
+  height: auto;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(135deg, #ff4500, #ffc547); 
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.p1{
+width: 321px;
+height: 23px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+}
+.span1{
+    color:#ffaf54;
+}
+.svg1{
+position: absolute;
+left: 469px;
+top: 12px;
+background: url(.png);
+}
+.span2{
+position: absolute;
+width: 303px;
+height: 30px;
+left: 498px;
+top: 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: #03081F;
+}
+
+.grennPack{
+    position: absolute;
+    height: 50px;
+    left: 71.8%;
+    top: 0px;
+}
+.shop{
+position: absolute;
+width: 43px;
+height: 43px;
+left: 60px;
+top: 15px;
+background: url(.png);
+
+}
+.hr1{
+position: absolute;
+width: 100px;
+height: 0px;
+left: 60px;
+top: 0px;
+opacity: 0.5;
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+}
+.items{
+position: absolute;
+width: 69px;
+height: 24px;
+left: 117px;
+top: 23px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.hr2{
+position: absolute;
+width: 100px;
+height: 0px;
+left: 130px;
+top: 0px;
+opacity: 0.5;
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+}
+.price{
+    position: absolute;
+    left: 187px;
+    top: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+     color: #FFFFFF;
+}
+.hr3{
+position: absolute;
+width: 100px;
+height: 0px;
+left: 220px;
+top: 0px;
+opacity: 0.5;
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+}
+.charge{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 280px;
+top: 17px;
+background: url(.png);
+transform: rotate(0deg);
+}
+
+.NavBar{
+position: absolute;
+left: 46px;
+top: 80px;
+}
+.logo{
+position: absolute;
+width: 180px;
+height: 180px;
+left: 16px;
+top: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 250px;
+    top: 120px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 46px;
+    text-decoration: none;
+    background:white;
+  }
+  
+  li a:hover {
+    background: linear-gradient(135deg, #ff4500, #ff6347); 
+    border-radius: 30px;
+    color: #FFCC00;
+  }
+  .li1{
+    background: linear-gradient(135deg, #ff4500, #ff6347); 
+    border-radius: 30px;
+    color: #FFCC00; 
+    padding: 14px 66px;
+  }
+  .pictureADD{
+box-sizing: border-box;
+position: absolute;
+width: 1200px;
+height: 525px;
+left: 50px;
+top: 210px;
+background: #FBFBFB;
+border-radius: 12px;
+}
+.image1{
+box-sizing: border-box;
+position: absolute;
+width: 426px;
+height: 465px;
+left: 773px;
+top: 60px;
+background: #FC8A06;
+border-radius: 282.5px 0px 12px;
+}
+.image2{
+position: absolute;
+width: 337px;
+height: 405px;
+left: 592px;
+top: 120px;
+background: url(image.png);
+border-radius: 12px 12px 0px 0px;
+}
+.image3{
+position: absolute;
+left: 706px;
+top: 80px;
+}
+.image4{
+position: absolute;
+left: 816px;
+top: 210px;
+}
+.image5{
+position: absolute;
+left: 716px;
+top: 360px;
+}
+.image6{
+position: absolute;
+width: 805px;
+height: 527px;
+left: 117px;
+top: 0px;
+background: url(Untitled-1.png);
+
+}
+.text{
+position: absolute;
+width: 404px;
+height: 66px;
+left: 27px;
+top: 70px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 66px;
+color: #03081F;
+}
+.text1{
+position: absolute;
+width: 389px;
+height: 132px;
+left: 27px;
+top: 197px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 66px;
+color: #03081F;
+}
+.text2{
+color: #FC8A06;
+}
+.textMenu{
+position: absolute;
+width: 630px;
+height: 48px;
+left: 41px;
+top: 774px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #000000;
+}
+.NavBarMenu{
+position: absolute;
+left: 499px;
+top: 646px;
+}
+.ul2 {
+  list-style-type: none;
+  width: 650px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 170px;
+  top: 120px;
+}
+
+.li2 {
+  float: left;
+}
+
+.li2 a {
+  display: block;
+  text-align: center;
+  padding: 14px 46px;
+  text-decoration: none;
+  background: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonLi {
+  box-sizing: border-box;
+  border: 1px solid #FC8A06; /* Button border color */
+  border-radius: 120px;
+  background-color: white; /* Default background */
+  color: #FC8A06; /* Default text color */
+}
+
+.buttonLi.active {
+  background-color: #FC8A06; /* Button active state background */
+  color: white; /* Button active state text color */
+}
+
+.buttonLi:hover {
+  background-color: #FC8A06;
+  color: white;
+}
+
+.li3 {
+  color: #FC8A06;
+}
+
+.li3{
+color: #FC8A06;
+}
+.pics-container {
+width: 100%;
+height: auto;
+}
+.picBurger{
+position: absolute;
+width: 396px;
+height: auto;
+left: 41px;
+top: 836px;
+}
+.picBurf{
+position: absolute;
+width: 396px;
+height: auto;
+left: 450px;
+top: 836px;
+}
+.picsund{
+position: absolute;
+width: 396px;
+height: auto;
+left: 856px;
+top: 836px; 
+}
+
+.MenuTxt1{
+position: absolute;
+width: 630px;
+height: 48px;
+left: 41px;
+top: 1104px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #000000;
+}
+/*Burger*/
+.ZoneBurgerFastFood{
+position: absolute;
+width: 238px;
+height: 266px;
+left: 41px;
+top: 1144px;
+background: #03081F;
+border-radius: 12px;
+}  
+.picuterBurgerFastFood{
+background: url(image.png);
+border-radius: 12px 12px 0px 0px;
+}
+.textBurgerFastFood{
+width: 180px;
+height: 27px;
+font-family: 'Poppins';
+font-style: normal;
+text-align: center;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FC8A06;
+}
+.textBurgerFastRstaurent{
+width: 79px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: center;
+line-height: 20px;
+color: #FFFFFF;
+}
+/*salade8*/
+.ZoneSalade{
+position: absolute;
+width: 238px;
+height: 266px;
+left: 291px;
+top: 1144px;
+background: #03081F;
+border-radius: 12px;
+}  
+.picuterSalade{
+background: url(image.png);
+border-radius: 12px 12px 0px 0px;
+}
+.textSalade{
+font-family: 'Poppins';
+font-style: normal;
+text-align: center;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FC8A06;
+}
+.textSalades{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: center;
+line-height: 20px;
+color: #FFFFFF;
+}
+/*pasta*/
+.Zonepasta{
+position: absolute;
+width: 238px;
+height: 266px;
+left: 541px;
+top: 1144px;
+background: #03081F;
+border-radius: 12px;
+}  
+.picuterSpasta{
+background: url(image.png);
+border-radius: 12px 12px 0px 0px;
+}
+.textpasta{
+font-family: 'Poppins';
+font-style: normal;
+text-align: center;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FC8A06;
+}
+.textpastas{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: center;
+line-height: 20px;
+color: #FFFFFF;
+}
+/*pizza*/
+.Zonepizza{
+position: absolute;
+width: 238px;
+height: 266px;
+left: 791px;
+top: 1144px;
+background: #03081F;
+border-radius: 12px;
+}  
+.picuterpizza{
+background: url(image.png);
+border-radius: 12px 12px 0px 0px;
+}
+.textpizza{
+font-family: 'Poppins';
+font-style: normal;
+text-align: center;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FC8A06;
+}
+.textpizzas{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: center;
+line-height: 20px;
+color: #FFFFFF;
+}
+/*BrakFast*/
+.ZonepBrakFast{
+position: absolute;
+width: 238px;
+height: 266px;
+left: 1041px;
+top: 1144px;
+background: #03081F;
+border-radius: 12px;
+}  
+.picuterBrakFast{
+background: url(image.png);
+border-radius: 12px 12px 0px 0px;
+}
+.textBrakFast{
+font-family: 'Poppins';
+font-style: normal;
+text-align: center;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FC8A06;
+}
+.textBrakFasts{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: center;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.chef{
+position: absolute;
+width: 604px;
+height: 325px;
+left: 20px;
+top: 720px;
+}
+.chef1{
+position: absolute;
+width: 604px;
+height: 325px;
+left: 635px;
+top: 720px;
+}
+.explaine{
+position: absolute;
+width: 1197px;
+height: 582px;
+left: 60px;
+top: 1786px;
+background: #D9D9D9;
+border-radius: 12px;
+}
+.explaineZone{
+position: absolute;
+width: 1000px;
+height: 426px;
+left: 99px;
+top: 107px;
+background: white;
+border-radius: 12px;
+}
+.buttonExplaine{
+position: absolute;
+width: 346px;
+height: 52px;
+left: 30px;
+top: 50px;
+background: #FC8A06;
+border-radius: 120px;
+}
+.buttonExplaineText{
+font-family: 'Poppins';
+font-size: 18px;
+text-align: center;
+line-height: 47px;
+color: #000000;
+}
+.picExplaine1{
+position: absolute;
+width: 190px;
+height: 235px;
+left: 395px;
+top: 75px;
+background: #D9D9D9;
+border-radius: 12px;
+}    
+.divpic{
+  background: #D9D9D9;
+}
+.picturesExplaine1{
+position: absolute;
+width: 128px;
+height: 128px;
+top: 60px;
+left: 25px;
+background: url(order-food.png);
+}
+.textExplaine1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-align: center;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.text2Explaine1{
+position: absolute;
+width: 184px;
+height: 50px;
+left: 0px;
+top: 180px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #000000;
+}.picExplaine2{
+  position: absolute;
+  width: 190px;
+  height: 235px;
+  left: 590px;
+  top: 75px;
+  background: #D9D9D9;
+  border-radius: 12px;
+}
+.picturesExplaine2{
+position: absolute;
+width: 128px;
+height: 128px;
+top: 60px;
+left: 25px;
+background: url(order-food.png);
+}
+.textExplaine2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-align: center;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.text2Explaine2{
+position: absolute;
+width: 184px;
+height: 50px;
+left: 0px;
+top: 180px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #000000;
+}
+.picExplaine3{
+  position: absolute;
+  width: 190px;
+  height: 235px;
+  left: 785px;
+  top: 75px;
+  background: #D9D9D9;
+  border-radius: 12px;
+  }
+.picturesExplaine3{
+position: absolute;
+width: 128px;
+height: 128px;
+top: 60px;
+left: 25px;
+background: url(order-food.png);
+}
+.textExplaine3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-align: center;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.text2Explaine3{
+position: absolute;
+width: 184px;
+height: 50px;
+left: 0px;
+top: 180px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #000000;
+}
+
+.explantexto1{
+position: absolute;
+width: 352px;
+height: 27px;
+left: 50px;
+top: 130px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.explantexto2{
+position: absolute;
+width: 352px;
+height: 27px;
+left: 50px;
+top: 190px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.explantexto3{
+position: absolute;
+width: 302px;
+height: 27px;
+left: 50px;
+top: 250px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.explantexto4{
+position: absolute;
+width: 302px;
+height: 27px;
+left: 50px;
+top: 330px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.texto1{
+position: absolute;
+width: 525px;
+height: 72px;
+left: 416px;
+top: 330px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #03081F;
+}
+.aboutUs{
+position: absolute;
+width: 321px;
+height: 48px;
+left: 140px;
+top: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #000000;
+}
+.zoneOrange{
+position: absolute;
+width: 1128px;
+height: 158px;
+left: 80px;
+top: 2412px;
+background: #FC8A06;
+border-radius: 12px;
+}
+.textOrange{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 42px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.text1Orange{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 42px;
+top: 76px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 34px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.line1{
+position: absolute;
+width: 1px;
+height: 100px;
+left: 281px;
+top: 31px;
+background: #D9D9D9;
+}
+.textOrange1{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 310px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.text1Orange1{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 310px;
+top: 76px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 34px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.line2{
+position: absolute;
+width: 1px;
+height: 100px;
+left: 560px;
+top: 31px;
+background: #D9D9D9;
+}
+.textOrange2{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 578px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.text1Orange2{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 578px;
+top: 76px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 34px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.line3{
+position: absolute;
+width: 1px;
+height: 100px;
+left: 800px;
+top: 31px;
+background: #D9D9D9;
+}
+.textOrange3{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 846px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.text1Orange3{
+position: absolute;
+width: 216px;
+height: 90px;
+left: 846px;
+top: 76px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 34px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+}
+.foother{
+position: absolute;
+width: 100%;
+height: 73px;
+left: 0px;
+top: 2586px;
+background: #03081F;
+}
+.textFoother{
+position: absolute;
+width: 332px;
+height: 23px;
+left: 116px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+.textFoother1{
+position: absolute;
+width: 332px;
+height: 23px;
+left: 700px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.textFoother2{
+position: absolute;
+width: 332px;
+height: 23px;
+left: 836px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.textFoother3{
+position: absolute;
+width: 332px;
+height: 23px;
+left: 916px;
+top: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.textFoother4{
+  position: absolute;
+  width: 332px;
+  height: 23px;
+  left: 1000px;
+  top: 26px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+/*##############################################################################################################*/
+.NavBarMenu1 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 64px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15); /* Add shadow for elevation */
+  border-radius: 20px 20px 0 0; /* Rounded corners at the top */
+}
+
+/* Navbar icons container */
+.NavBarMenu2 {
+  display: none;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+/* Navbar icons */
+.NavBarMenu2 a {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 12px; 
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.NavBarMenu2 a.active {
+  display: none;
+  color: #28a745; 
+}
+
+.NavBarMenu2 a:hover {
+  display: none;
+  background-color: rgba(255, 165, 0, 0.2); 
+  border-radius: 50%; 
+}
+
+.NavBarMenu2 a i {
+  display: none;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+/*##############################################################################################################*/
+
+@media (min-width: 300px) and (max-width:600px) {
+  body{
+    width: 100%;
+    height: auto;
+  }
+
+  .NavBarMenu2 {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15); /* Add shadow for elevation */
+    border-radius: 20px 20px 0 0; 
+  }
+  
+  .NavBarMenu2 {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+  }
+  
+  .NavBarMenu3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333; /* Default icon color */
+    font-size: 12px; /* Optional text under the icons */
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+    .header, 
+    .p1, 
+    .span1, 
+    .svg1, 
+    .span2, 
+    .grennPack, 
+    .shop, 
+    .hr1, 
+    .items, 
+    .hr2, 
+    .price, 
+    .hr3, 
+    .charge,
+    .NavBar,
+    .li1,    
+    .li0,
+    .li0 a,
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6 {
+        display: none !important; /* Hide all elements */
+    }
+
+    .logo{
+    position: none;
+    width: 180px;
+    height: 180px;
+    left: none;
+    top: 0px;
+    }
+    .pictureADD{
+    box-sizing: border-box;
+    width: 110%;
+    height: 325px;
+    left: 6px;
+    top: 180px;
+    background: #E2E2E2;
+    border-radius: 12px;
+    }
+    .text{
+    width: 404px;
+    height: 66px;
+    left: 27px;
+    top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 66px;
+    color: #03081F;
+
+    }
+    .text1{
+    width: 389px;
+    height: 132px;
+    left: none;
+    top: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    color: #03081F;
+    }
+    .text2{
+    color: #FC8A06;
+    }
+    .textMenu{
+    width: 300px;
+    height: 48px;
+    left: 11px;
+    top: 504px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 48px;
+    color: #000000;
+    }
+    .NavBarMenu{
+    left: 2px;
+    top: 6px;
+    }
+    .ul2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      left: 6px;
+      top: 550px;
+      }
+      
+      .li2 {
+        float: left;
+      }
+      
+      .li2 a {
+        color: black;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        background:white;
+      }
+    
+    .buttonLi{
+    box-sizing: border-box;
+    border: 1px solid #FC8A06;
+    border-radius: 120px;
+    }
+    .li3{
+    color: #FC8A06;
+    }
+    
+     .pics-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .picBurger{        
+      width: 100%; 
+      height: auto;
+      left: 10px;
+      top: 620px;
+    }
+
+    .picBurf{        
+      width: 100%; 
+      height: auto;
+      left: 10px;
+      top: 900px;
+    }
+    .picsund {
+      width: 100%; 
+      height: auto;
+      left: 10px;
+      top: 1180px; 
+    }
+    
+    .MenuTxt1{
+    position: none;
+    width: 630px;
+    height: 48px;
+    left: 41px;
+    top: 1444px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+    }
+    /*Burger*/
+    .ZoneBurgerFastFood{
+    position: none;
+    width: 176px;
+    height: 186px;
+    left: 11px;
+    top: 1494px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    
+    .picuterBurgerFastFood{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textBurgerFastFood{
+    width: 180px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27px;
+    color: #FC8A06;
+    }
+    .textBurgerFastRstaurent{
+    width: 180px;
+    height: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+    /*salade8*/
+    .ZoneSalade{
+      position: none;
+      width: 176px;
+      height: 186px;
+      left: 191px;
+      top: 1494px;
+      background: #03081F;
+      border-radius: 12px;
+    }  
+    .picuterSalade{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textSalade{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textSalades{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*pasta*/
+    .Zonepasta{
+      position: none;
+      width: 176px;
+      height: 186px;
+      left: 11px;
+      top: 1690px;
+      background: #03081F;
+      border-radius: 12px;
+    }  
+    .picuterpasta{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textpasta{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textpastas{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*pizza*/
+    .Zonepizza{
+      position: none;
+      width: 176px;
+      height: 186px;
+    left: 191px;
+    top: 1690px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    .picuterpizza{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textpizza{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textpizzas{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*BrakFast*/
+    .ZonepBrakFast{
+      position: none;
+      width: 176px;
+      height: 186px;
+    left: 101px;
+    top: 1880px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    .picuterBrakFast{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textBrakFast{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textBrakFasts{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+
+    .chef{
+    position: none;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 1040px;
+    }
+    .chef1{
+      position: none;
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 1290px;
+    }
+    .explaine{
+    position: none;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 2560px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    }
+    .explaineZone{
+    position: none;
+    width: 90%;
+    height: 426px;
+    left: 29px;
+    top: 107px;
+    border-radius: 12px;
+    }
+    .buttonExplaine{
+    position: none;
+    width: 246px;
+    height: 52px;
+    left: 10px;
+    top: 4px;
+    background: #FC8A06;
+    border-radius: 120px;
+    }
+    .buttonExplaineText{
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: center;
+    line-height: 47px;
+    color: #000000;
+    }
+    .divpic{
+      background: #D9D9D9;
+    }
+    .picExplaine1{
+    width: 190px;
+    height: 235px;
+    left: 63px;
+    top: 275px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    }
+    .picturesExplaine1{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 60px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine1{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }.picExplaine2{
+      position: none;
+      width: 190px;
+      height: 235px;
+      left: 65px;
+      top: 520px;
+      background: #D9D9D9;
+      border-radius: 12px;
+    }
+    .picturesExplaine2{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 50px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine2{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    display: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }
+    .picExplaine3{
+      position: absolute;
+      width: 190px;
+      height: 235px;
+      left: 65px;
+      top: 770px;
+      background: #D9D9D9;
+      border-radius: 12px;
+      }
+    .picturesExplaine3{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 50px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine3{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }
+    
+    .explantexto1{
+    position: absolute;
+    width: 352px;
+    height: 27px;
+    left: 6px;
+    top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto2{
+    position: none;
+    width: 352px;
+    height: 27px;
+    left: 6px;
+    top: 98px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto3{
+    position: none;
+    width: 302px;
+    height: 27px;
+    left: 6px;
+    top: 138px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto4{
+    position: absolute;
+    width: 302px;
+    height: 27px;
+    left: 6px;
+    top: 198px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .texto1{
+    position: absolute;
+    width: 325px;
+    height: 72px;
+    left: 6px;
+    top: 1030px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .aboutUs{
+    position: absolute;
+    width: 321px;
+    height: 48px;
+    left: 40px;
+    top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    }
+    .zoneOrange{
+      position: none;
+    width: 335px;
+    height: 780px;
+    left: 19px;
+    top: 3812px;
+    background: #FC8A06;
+    border-radius: 12px;
+    }
+    .textOrange{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 42px;
+    top: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 42px;
+    top: 76px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line1{
+    position: absolute;
+    width: 1px;
+    height: 294px;
+    left: 171px;
+    top: 71px;
+    background: #D9D9D9;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    }
+    .textOrange1{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 266px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange1{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 326px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line2{
+      position: absolute;
+      width: 1px;
+      height: 294px;
+      left: 171px;
+      top: 289px;
+      background: #D9D9D9;
+      transform: matrix(0, -1, -1, 0, 0, 0); 
+    }
+    .textOrange2{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 470px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange2{
+    position: none;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 530px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line3{
+      position: absolute;
+      width: 1px;
+      height: 294px;
+      left: 171px;
+      top: 479px;
+      background: #D9D9D9;
+      transform: matrix(0, -1, -1, 0, 0, 0); 
+    }
+    .textOrange3{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 656px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange3{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 710px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .foother{
+    position: none;
+    width: 100%;
+    height: 173px;
+    left: 0px;
+    top: 4626px;
+    background: #03081F;
+    }
+    .textFoother{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    
+    .textFoother1{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother2{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 66px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother3{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 86px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother4{
+      position: absolute;
+      width: 332px;
+      height: 23px;
+      left: 6px;
+      top: 126px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+
+    .NavBar {
+      position: fixed;
+      width: 100%;
+      height: 464px;
+      bottom: 0;
+      left: 0;
+      top:0;
+      background-color: rgb(25, 22, 22);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15);
+      border-radius: 20px 20px 0 0;
+  }
+ 
+}
+/*################################################################################*/
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  body{
+    width: 90%;
+    height: auto;
+  }
+
+  .NavBarMenu2 {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15); /* Add shadow for elevation */
+    border-radius: 20px 20px 0 0; 
+  }
+  
+  .NavBarMenu2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .NavBarMenu3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333; /* Default icon color */
+    font-size: 12px; /* Optional text under the icons */
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+    .header, 
+    .p1, 
+    .span1, 
+    .svg1, 
+    .span2, 
+    .grennPack, 
+    .shop, 
+    .hr1, 
+    .items, 
+    .hr2, 
+    .price, 
+    .hr3, 
+    .charge,
+    .NavBar,
+    .li1,    
+    .li0,
+    .li0 a,
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6 {
+        display: none !important; /* Hide all elements */
+    }
+
+    .logo{
+    position: none;
+    width: 180px;
+    height: 180px;
+    left: none;
+    top: 0px;
+    }
+    .pictureADD{
+    box-sizing: border-box;
+    width: 95%;
+    height: 325px;
+    left: 20px;
+    top: 140px;
+    background: #E2E2E2;
+    border-radius: 12px;
+    }
+    .text{
+    width: 404px;
+    height: 66px;
+    left: 27px;
+    top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 66px;
+    color: #03081F;
+
+    }
+    .text1{
+    width: 459px;
+    height: 132px;
+    left: none;
+    top: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    color: #03081F;
+    }
+    .text2{
+    color: #FC8A06;
+    }
+    .textMenu{
+    width: 650px;
+    height: 48px;
+    left: 31px;
+    top: 474px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 48px;
+    color: #000000;
+    }
+    .NavBarMenu{
+    left: 22px;
+    top: 4px;
+    }
+    .ul2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      left: 6px;
+      top: 530px;
+      }
+      
+      .li2 {
+        float: left;
+      }
+      
+      .li2 a {
+        color: black;
+        text-align: center;
+        padding: 16px 31px;
+        text-decoration: none;
+        background:white;
+      }
+    
+    .buttonLi{
+    box-sizing: border-box;
+    border: 1px solid #FC8A06;
+    border-radius: 120px;
+    }
+    .li3{
+    color: #FC8A06;
+    }
+    
+     .pics-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .picBurger{        
+      width: 90%; 
+      height: auto;
+      left: 30px;
+      top: 590px;
+    }
+
+    .picBurf{        
+      width: 90%; 
+      height: auto;
+      left: 30px;
+      top: 1090px;
+    }
+    .picsund {
+      width: 90%; 
+      height: auto;
+      left: 30px;
+      top: 1590px; 
+    }
+    
+    .MenuTxt1{
+    position: none;
+    width: 630px;
+    height: 48px;
+    left: 41px;
+    top: 2044px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 48px;
+    color: #000000;
+    }
+    /*Burger*/
+    .ZoneBurgerFastFood{
+    position: none;
+    width: 176px;
+    height: 186px;
+    left: 51px;
+    top: 2104px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    
+    .picuterBurgerFastFood{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textBurgerFastFood{
+    width: 180px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27px;
+    color: #FC8A06;
+    }
+    .textBurgerFastRstaurent{
+    width: 180px;
+    height: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+    /*salade8*/
+    .ZoneSalade{
+      position: none;
+      width: 176px;
+      height: 186px;
+      left: 241px;
+      top: 2104px;
+      background: #03081F;
+      border-radius: 12px;
+    }  
+    .picuterSalade{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textSalade{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textSalades{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*pasta*/
+    .Zonepasta{
+      position: none;
+      width: 176px;
+      height: 186px;
+      left: 431px;
+      top: 2104px;
+      background: #03081F;
+      border-radius: 12px;
+    }  
+    .picuterpasta{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textpasta{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textpastas{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*pizza*/
+    .Zonepizza{
+      position: none;
+      width: 176px;
+      height: 186px;
+    left: 241px;
+    top: 2304px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    .picuterpizza{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textpizza{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textpizzas{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*BrakFast*/
+    .ZonepBrakFast{
+      position: none;
+      width: 176px;
+      height: 186px;
+    left: 51px;
+    top: 2304px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    .picuterBrakFast{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textBrakFast{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textBrakFasts{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+
+    .chef{
+    position: none;
+    width: 90%;
+    height: auto;
+    left: 30px;
+    top: 1280px;
+    }
+    .chef1{
+      position: none;
+      width: 90%;
+      height: auto;
+      left: 30px;
+      top: 1640px;
+    }
+    .explaine{
+    position: none;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 2280px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    }
+    .explaineZone{
+    position: none;
+    width: 10%;
+    height: 426px;
+    left: 29px;
+    top: 1030px;
+    border-radius: 12px;
+    }
+    .buttonExplaine{
+    position: none;
+    width: 326px;
+    height: 72px;
+    left: 30px;
+    top: 4px;
+    background: #FC8A06;
+    border-radius: 120px;
+    }
+    .buttonExplaineText{
+    font-family: 'Poppins';
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    color: #000000;
+    }
+    .divpic{
+      background: #D9D9D9;
+    }
+    .picExplaine1{
+    width: 190px;
+    height: 235px;
+    left: 33px;
+    top: 295px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    }
+    .picturesExplaine1{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 60px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine1{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }.picExplaine2{
+      width: 190px;
+      height: 235px;
+      left: 243px;
+      top: 295px;
+      background: #D9D9D9;
+      border-radius: 12px;
+    }
+    .picturesExplaine2{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 50px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine2{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    display: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }
+    .picExplaine3{
+      width: 190px;
+      height: 235px;
+      left: 453px;
+      top: 295px;
+      background: #D9D9D9;
+      border-radius: 12px;
+      }
+    .picturesExplaine3{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 50px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine3{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }
+    
+    .explantexto1{
+    position: absolute;
+    width: 492px;
+    height: 27px;
+    left: 36px;
+    top: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto2{
+    position: none;
+    width: 452px;
+    height: 27px;
+    left: 36px;
+    top: 148px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto3{
+    position: none;
+    width: 522px;
+    height: 27px;
+    left: 26px;
+    top: 198px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto4{
+    position: absolute;
+    width: 402px;
+    height: 27px;
+    left: 26px;
+    top: 258px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .texto1{
+    position: absolute;
+    width: 595px;
+    height: 72px;
+    left: 26px;
+    top: 570px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .aboutUs{
+    position: absolute;
+    width: 321px;
+    height: 48px;
+    left: 60px;
+    top: 1000px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+    }
+    .zoneOrange{
+      position: none;
+    width: 435px;
+    height: 780px;
+    left: 139px;
+    top: 3992px;
+    background: #FC8A06;
+    border-radius: 12px;
+    }
+    .textOrange{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 82px;
+    top: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 92px;
+    top: 96px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line1{
+    position: absolute;
+    width: 2px;
+    height: 294px;
+    left: 201px;
+    top: 71px;
+    background: #D9D9D9;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    }
+    .textOrange1{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 266px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange1{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 326px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line2{
+      position: absolute;
+      width: 2px;
+      height: 294px;
+      left: 201px;
+      top: 289px;
+      background: #D9D9D9;
+      transform: matrix(0, -1, -1, 0, 0, 0); 
+    }
+    .textOrange2{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 470px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange2{
+    position: none;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 530px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line3{
+      position: absolute;
+      width: 2px;
+      height: 294px;
+      left: 201px;
+      top: 479px;
+      background: #D9D9D9;
+      transform: matrix(0, -1, -1, 0, 0, 0); 
+    }
+    .textOrange3{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 656px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange3{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 710px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .foother{
+    position: none;
+    width: 100%;
+    height: 173px;
+    left: 0px;
+    top: 4826px;
+    background: #03081F;
+    }
+    .textFoother{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    
+    .textFoother1{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 106px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother2{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 66px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother3{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 86px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother4{
+      position: absolute;
+      width: 332px;
+      height: 23px;
+      left: 6px;
+      top: 126px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+}
+/*################################################################################*/
+@media only screen and (min-width: 968px) and (max-width: 1260px) {
+  body{
+    width: 90%;
+    height: auto;
+  }
+
+  .NavBarMenu2 {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15); /* Add shadow for elevation */
+    border-radius: 20px 20px 0 0; 
+  }
+  
+  .NavBarMenu2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .NavBarMenu3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333; /* Default icon color */
+    font-size: 12px; /* Optional text under the icons */
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+    .header, 
+    .p1, 
+    .span1, 
+    .svg1, 
+    .span2, 
+    .grennPack, 
+    .shop, 
+    .hr1, 
+    .items, 
+    .hr2, 
+    .price, 
+    .hr3, 
+    .charge,
+    .NavBar,
+    .li1,    
+    .li0,
+    .li0 a,
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6 {
+        display: none !important; /* Hide all elements */
+    }
+
+    .logo{
+    position: none;
+    width: 180px;
+    height: 180px;
+    left: none;
+    top: 0px;
+    }
+    .pictureADD{
+    box-sizing: border-box;
+    width: 95%;
+    height: 325px;
+    left: 20px;
+    top: 140px;
+    background: #E2E2E2;
+    border-radius: 12px;
+    }
+    .text{
+    width: 404px;
+    height: 66px;
+    left: 27px;
+    top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 66px;
+    color: #03081F;
+
+    }
+    .text1{
+    width: 459px;
+    height: 132px;
+    left: none;
+    top: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    color: #03081F;
+    }
+    .text2{
+    color: #FC8A06;
+    }
+    .textMenu{
+    width: 650px;
+    height: 48px;
+    left: 31px;
+    top: 474px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 48px;
+    color: #000000;
+    }
+    .NavBarMenu{
+    left: 22px;
+    top: 4px;
+    }
+    .ul2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      left: 6px;
+      top: 530px;
+      }
+      
+      .li2 {
+        float: left;
+      }
+      
+      .li2 a {
+        color: black;
+        text-align: center;
+        padding: 20px 51px;
+        text-decoration: none;
+        background:white;
+      }
+    
+    .buttonLi{
+    box-sizing: border-box;
+    border: 1px solid #FC8A06;
+    border-radius: 120px;
+    }
+    .li3{
+    color: #FC8A06;
+    }
+    
+     .pics-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .picBurger{        
+      width: 90%; 
+      height: auto;
+      left: 40px;
+      top: 630px;
+    }
+
+    .picBurf{        
+      width: 90%; 
+      height: auto;
+      left: 40px;
+      top: 1250px;
+    }
+    .picsund {
+      width: 90%; 
+      height: auto;
+      left: 40px;
+      top: 1870px; 
+    }
+    
+    .MenuTxt1{
+    position: none;
+    width: 630px;
+    height: 48px;
+    left: 41px;
+    top: 2500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 48px;
+    color: #000000;
+    }
+    /*Burger*/
+    .ZoneBurgerFastFood{
+    position: none;
+    width: 176px;
+    height: 186px;
+    left: 51px;
+    top: 2584px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    
+    .picuterBurgerFastFood{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textBurgerFastFood{
+    width: 180px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27px;
+    color: #FC8A06;
+    }
+    .textBurgerFastRstaurent{
+    width: 180px;
+    height: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+    /*salade8*/
+    .ZoneSalade{
+      position: none;
+      width: 176px;
+      height: 186px;
+      left: 241px;
+      top: 2584px;
+      background: #03081F;
+      border-radius: 12px;
+    }  
+    .picuterSalade{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textSalade{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textSalades{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*pasta*/
+    .Zonepasta{
+      position: none;
+      width: 176px;
+      height: 186px;
+      left: 431px;
+      top: 2584px;
+      background: #03081F;
+      border-radius: 12px;
+    }  
+    .picuterpasta{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textpasta{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textpastas{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*pizza*/
+    .Zonepizza{
+      position: none;
+      width: 176px;
+      height: 186px;
+    left: 621px;
+    top: 2584px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    .picuterpizza{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textpizza{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textpizzas{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+    /*BrakFast*/
+    .ZonepBrakFast{
+      position: none;
+      width: 176px;
+      height: 186px;
+      left: 810px;
+      top: 2584px;
+    background: #03081F;
+    border-radius: 12px;
+    }  
+    .picuterBrakFast{
+      width: 176px;
+      height: 140px;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+    }
+    .textBrakFast{
+      width: 180px;
+      height: 27px;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 27px;
+      color: #FC8A06;
+    }
+    .textBrakFasts{
+      width: 180px;
+      height: 7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 7px;
+      text-align: center;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+
+    .chef{
+    position: none;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 1410px;
+  }
+    .chef1{
+      position: none;
+      width: 100%;
+      height: auto;
+      left: 0px;
+      top: 2000px;
+    }
+    .explaine{
+    position: none;
+    width: 100%;
+    height: auto;
+    left: 90px;
+    top: 3000px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    }
+    .explaineZone{
+    position: none;
+    width: 10%;
+    height: 426px;
+    left: 29px;
+    top: 1030px;
+    border-radius: 12px;
+    }
+    .buttonExplaine{
+    position: none;
+    width: 326px;
+    height: 72px;
+    left: 30px;
+    top: 4px;
+    background: #FC8A06;
+    border-radius: 120px;
+    }
+    .buttonExplaineText{
+    font-family: 'Poppins';
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    color: #000000;
+    }
+    .divpic{
+      background: #D9D9D9;
+    }
+    .picExplaine1{
+    width: 190px;
+    height: 235px;
+    left: 33px;
+    top: 300px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    }
+    .picturesExplaine1{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 60px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine1{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }.picExplaine2{
+      width: 190px;
+      height: 235px;
+      left: 243px;
+      top: 300px;
+      background: #D9D9D9;
+      border-radius: 12px;
+    }
+    .picturesExplaine2{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 50px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine2{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    display: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }
+    .picExplaine3{
+      width: 190px;
+      height: 235px;
+      left: 453px;
+      top: 300px;
+      background: #D9D9D9;
+      border-radius: 12px;
+      }
+    .picturesExplaine3{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 50px;
+    left: 25px;
+    background: url(order-food.png);
+    }
+    .textExplaine3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .text2Explaine3{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 0px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    }
+    
+    .explantexto1{
+    position: absolute;
+    width: 492px;
+    height: 27px;
+    left: 36px;
+    top: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto2{
+    position: none;
+    width: 452px;
+    height: 27px;
+    left: 36px;
+    top: 148px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto3{
+    position: none;
+    width: 522px;
+    height: 27px;
+    left: 26px;
+    top: 198px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .explantexto4{
+    position: absolute;
+    width: 402px;
+    height: 27px;
+    left: 26px;
+    top: 258px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .texto1{
+    position: absolute;
+    width: 595px;
+    height: 72px;
+    left: 26px;
+    top: 570px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #03081F;
+    }
+    .aboutUs{
+    position: absolute;
+    width: 421px;
+    height: 48px;
+    left: 60px;
+    top: 990px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    }
+    .zoneOrange{
+      position: none;
+    width: 435px;
+    height: 780px;
+    left: 250px;
+    top: 4702px;
+    background: #FC8A06;
+    border-radius: 12px;
+    }
+    .textOrange{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 82px;
+    top: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 92px;
+    top: 96px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line1{
+    position: absolute;
+    width: 2px;
+    height: 294px;
+    left: 201px;
+    top: 71px;
+    background: #D9D9D9;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    }
+    .textOrange1{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 50px;
+    top: 266px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange1{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 326px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line2{
+      position: absolute;
+      width: 2px;
+      height: 294px;
+      left: 201px;
+      top: 289px;
+      background: #D9D9D9;
+      transform: matrix(0, -1, -1, 0, 0, 0); 
+    }
+    .textOrange2{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 470px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange2{
+    position: none;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 530px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .line3{
+      position: absolute;
+      width: 2px;
+      height: 294px;
+      left: 201px;
+      top: 479px;
+      background: #D9D9D9;
+      transform: matrix(0, -1, -1, 0, 0, 0); 
+    }
+    .textOrange3{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 656px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .text1Orange3{
+    position: absolute;
+    width: 216px;
+    height: 90px;
+    left: 80px;
+    top: 710px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .foother{
+    position: none;
+    width: 100%;
+    height: 173px;
+    left: 0px;
+    top: 5526px;
+    background: #03081F;
+    }
+    .textFoother{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    
+    .textFoother1{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 106px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother2{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 66px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother3{
+    position: none;
+    width: 332px;
+    height: 23px;
+    left: 6px;
+    top: 86px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .textFoother4{
+      position: absolute;
+      width: 332px;
+      height: 23px;
+      left: 6px;
+      top: 126px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+}
+
